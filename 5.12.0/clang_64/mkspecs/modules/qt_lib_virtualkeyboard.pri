@@ -1,0 +1,16 @@
+QT.virtualkeyboard.VERSION = 5.12.0
+QT.virtualkeyboard.name = QtVirtualKeyboard
+QT.virtualkeyboard.module = QtVirtualKeyboard
+QT.virtualkeyboard.libs = $$QT_MODULE_LIB_BASE
+QT.virtualkeyboard.includes = $$QT_MODULE_LIB_BASE/QtVirtualKeyboard.framework/Headers
+QT.virtualkeyboard.frameworks = $$QT_MODULE_LIB_BASE
+QT.virtualkeyboard.bins = $$QT_MODULE_BIN_BASE
+QT.virtualkeyboard.plugin_types = virtualkeyboard
+QT.virtualkeyboard.depends = core gui qml quick
+QT.virtualkeyboard.uses =
+QT.virtualkeyboard.module_config = v2 lib_bundle
+QT.virtualkeyboard.DEFINES = QT_VIRTUALKEYBOARD_LIB
+QT.virtualkeyboard.enabled_features =
+QT.virtualkeyboard.disabled_features =
+QT_CONFIG +=
+QT_MODULES += virtualkeyboard
