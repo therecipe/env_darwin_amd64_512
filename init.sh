@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ev
+
 QT_ROOT=$HOME
 QT_VERSION=5.12.0
 
