@@ -18,7 +18,7 @@ rm -rf ./${QT_VERSION}/clang_64/lib/{cmake,pkgconfig,libQt5Bootstrap.a}
 
 
 for v in *.jsc *.log *.pro *.pro.user *.qmake.stash *.qmlc .DS_Store *_debug* *.dSYM *.la *.prl; do
-	find . -name ${v} -exec rm -rf {} \;
+	find . -maxdepth 4 -name ${v} -exec rm -rf {} \;
 done
 
 mkdir -p ./${QT_VERSION}/clang_64/_bin
